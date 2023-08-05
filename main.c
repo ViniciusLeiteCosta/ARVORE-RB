@@ -5,28 +5,40 @@
 
 int main() {
     No *raiz = NULL;
+    int opcao, valor;
 
-    // Inserindo elementos na árvore
-    inserir(&raiz, 10);
-    inserir(&raiz, 20);
-    inserir(&raiz, 5);
-    inserir(&raiz, 15);
-    inserir(&raiz, 25);
-    inserir(&raiz, 3);
-    inserir(&raiz, 7);
+    do {
+        printf("\nOPCOES:\n");
+        printf("1 - INSERIR\n");
+        printf("2 - PREORDER\n");
+        printf("3 - REMOVER\n");
+        printf("99 - SAIR\n");
+        printf("OPCAO: ");
+        scanf("%d", &opcao);
 
-    printf("Árvore vermelho-preta (pré-ordem):\n");
-    preorder_rb(raiz);
-    printf("\n");
-
-    // Removendo elementos da árvore
-    removerNo(&raiz, 5);
-    removerNo(&raiz, 20);
-
-    printf("Árvore vermelho-preta após remoções (pré-ordem):\n");
-    preorder_rb(raiz);
-    printf("\n");
-
+        switch (opcao) {
+            case 1:
+                printf("DIGITE O VALOR A SER INSERIDO: ");
+                scanf("%d", &valor);
+                inserir(&raiz, valor);
+                break;
+            case 2:
+                printf("PREORDER - RB:\n");
+                preorder_rb(raiz);
+                printf("\n");
+                break;
+            case 3:
+                printf("DIGITE O VALOR A SER REMOVIDO: ");
+                scanf("%d", &valor);
+                removerNo(&raiz, valor);
+                break;
+            case 99:
+                printf("----- FIM DO PROGRAMA -----\n");
+                break;
+            default:
+                printf("OPCAO INVALIDA.\n");
+        }
+    } while (opcao != 99);
 
     return 0;
 }
