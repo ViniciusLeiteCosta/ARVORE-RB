@@ -36,13 +36,22 @@ Rio de Janeiro. Elsevier. 2002.
 
 Vídeo Aulas:
 
+5.16 Red Black tree | Introduction to Red Black trees | DSA Tutorials Jenny's Lectures CS IT
+
+https://youtu.be/3RQtq7PDHog?list=PL2NFNH-W1DQPhYEJ0oZh09wzpk7nBv3Xk
+
+5.18 Red Black Tree Insertion | DSA Tutorials for Beginners Tutorials Jenny's Lectures CS IT
+
+https://youtu.be/qA02XWRTBdw
+
+5.18 Red Black Tree Deletion | DSA Tutorials for Beginners Tutorials Jenny's Lectures CS IT
+
+https://youtu.be/w5cvkTXY0vQ
+
 Red Black Tree Deletion | Tushar Roy
 
 https://youtu.be/CTvfzU_uNKE
 
-5.16 Red Black tree | Introduction to Red Black trees | DSA Tutorials Jenny's Lectures CS IT
-
-https://youtu.be/3RQtq7PDHog?list=PL2NFNH-W1DQPhYEJ0oZh09wzpk7nBv3Xk
 
 Exercício para fins de estudo:
 
